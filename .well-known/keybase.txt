@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/sternecker
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://sternecker.github.io
+  * I am sternecker (https://keybase.io/sternecker) on keybase.
+  * I have a public key with fingerprint CE48 4756 3563 E721 1BBB  0E87 8402 7CB2 6589 2681
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012026999603f6a2b5df9bb5a3379b1e417458f574e5af6938ddd79167bd7fac18a00a",
+      "fingerprint": "ce4847563563e7211bbb0e8784027cb265892681",
+      "host": "keybase.io",
+      "key_id": "84027cb265892681",
+      "kid": "0101c44bd5c5768979857a0e288c813b02201c5feecd2659dea757b037aaacc50a250a",
+      "uid": "5311b7f7c9335d763fc187e585359c19",
+      "username": "sternecker"
+    },
+    "service": {
+      "hostname": "sternecker.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1670279529,
+  "expire_in": 157680000,
+  "prev": "9df83dd0cf7efaf9932fe90d8a71b502a8192ba321e026b95d88aaf65bedbdc0",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMNtAnicbVJ/UBRVHL+TQIShUYQm0AIWSQqk/XFv39ubQWFqRoxIMSDIDPbH22M7
+uDvuDjxGQPkVYoXOOBMZ6QgmSkESTqEFFFggHBNUZJmWKTYyCqiZ5kDT9Jbyr9p5
+M/v2zefz2c/n875fBPkYAow1i8q6cP1jlUZvf3OxQW4o0rZTkl0ppczbKSteeOEC
+BbvcuVZNocwUzbA0ywuCwNOcyousBBRVkCQgchwUJAabGGgCSAXQhIGo8gKHFEWB
+AsNDSYGqKDNIpGmRiqdUzWbBTodTs7mJrIxNyAQBz5GFIcswkiTRGEFkolkoSywP
+kMDyiCHEfLtLZxBzkujCCZqdnJGP3AV7/4O/75tmZJNJUoAMII8EKCAARRqzCMmI
+4SSaZQkAqBjLCmELChYhgBLNQVEUZRnQIgsWfBcvyAGOWIQqlAWOAwrkOZUkgxgg
+wAFBZgQd6MJOm1iICdrlJlssW7GTKo+nyHmJJmO9Wj3LfzAJFs2dXyz9k8zhtLvt
+sr2AIPLdbofLrCu4Sx06ZRuWcv8Vy5U0m0IaJYwS7HRpdhtlZghSdmu6Oqmf9CIA
+VoinsMehOXGupiP0Kmjy6P/BJURSUFTEKQotqxCroioIHKtigVaQCBkJ0KyIGIGV
+RI5lMBkDSQAKQiK5ZyBhRVJkmtLjFdnslBkRm6JFD6ZZbKK72Imp8oH+lx4wGAMM
+fr6L9EkzBCxZen/+fPYvNXw7eeN4+bHKqqqyXz+oDAm58MqHe3fMBj7y5gZlvT2j
+LcnWONTX3nK7Pt9vLmV1L2qbdXQfzgp6ck91+JanxeS5y6eZJ+oGLiXVHe4qyFs3
+FH3x2osFHe1Tj7bInYn82kPJu5fFrJBjZ2YNc7Wpv5/dEPfyVHokc/diD50tN86s
+dlWvahp+ZnHfTxPPtlDeV2PTPx8Puha82ZtwPerBg4sP9H/XmqltXBYtlDrONxv2
+pI9MecZdofcKZx/qu8W9PZ+6wzV69o1TzJqnqNHjQa0ndnHd47evu3xrys59OVux
+cvpOBpdx3pLG+XeGxJVPT1+pqN8Z/LU6nNU13WT35B3y9G4b5oaSXs8ozbkVtrxH
+MqH9V/adiY/uuxF6YKs5YtPKGdk6N6McGdvUveKFkd96v/9k7NzjP9dGNefUKOZ8
+T1fsc5cSj6SdXJfp1d5Ff0RMImrU9AvqmBTbPWdGYweh7bS3ze1XVFoVGogj8+7d
+CTy4L+4935AJ49WbTR3vh4dVhsGrUe7sE2Mf/RXQIpXTQ4UNifzHzw+EM4uG4sO3
+Vly+uz4GTG1OTLY2pE4GJiXNR6XUpvSeitwYUvOaZ++FwZ7Cdz7Lptoy/a1LfIw/
+PLzlqzVH/TvrGo3Wb2BWzNHlg3UnfSyfRmROgJHq3d6Ym2/Np6X9+WMw3hnXOz7Z
+WlQzmWE/lrNqLfM3Lc29yg==
+=IzZa
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sternecker
+
+==================================================================
