@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Geoff&#39;s Blog</title>
-    <link>http://sternecker.github.io/</link>
-    <description>Recent content on Geoff&#39;s Blog</description>
+    <title>Random on Geoff&#39;s Blog</title>
+    <link>http://sternecker.github.io/tags/random/</link>
+    <description>Recent content in Random on Geoff&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Dec 2022 08:07:56 -0500</lastBuildDate><atom:link href="http://sternecker.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Dec 2022 08:07:56 -0500</lastBuildDate><atom:link href="http://sternecker.github.io/tags/random/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vegans</title>
       <link>http://sternecker.github.io/posts/vegans/</link>
@@ -30,17 +30,6 @@ The torturer asks, &amp;ldquo;What is your passphase?&amp;rdquo;
 Me: &amp;ldquo;My passphrase is, &amp;lsquo;Fuck you, better kill me!&amp;rsquo;&amp;rdquo;
 Me: Thinking to myself, &amp;ldquo;I should have picked a different password.&amp;rdquo;
 I&amp;rsquo;g glad I&amp;rsquo;m using biometric 2-factor.</description>
-      
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>http://sternecker.github.io/posts/my-first-post/</link>
-      <pubDate>Mon, 28 Nov 2022 18:28:57 -0500</pubDate>
-      
-      <guid>http://sternecker.github.io/posts/my-first-post/</guid>
-      
-        <description>This is my first post on this instance.</description>
       
     </item>
     

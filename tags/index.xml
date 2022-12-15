@@ -5,6 +5,40 @@
     <link>http://sternecker.github.io/tags/</link>
     <description>Recent content in Tags on Geoff&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://sternecker.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Dec 2022 08:07:56 -0500</lastBuildDate><atom:link href="http://sternecker.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Random</title>
+      <link>http://sternecker.github.io/tags/random/</link>
+      <pubDate>Thu, 15 Dec 2022 08:07:56 -0500</pubDate>
+      
+      <guid>http://sternecker.github.io/tags/random/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Stupid</title>
+      <link>http://sternecker.github.io/tags/stupid/</link>
+      <pubDate>Thu, 15 Dec 2022 08:07:56 -0500</pubDate>
+      
+      <guid>http://sternecker.github.io/tags/stupid/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>NSFW</title>
+      <link>http://sternecker.github.io/tags/nsfw/</link>
+      <pubDate>Mon, 05 Dec 2022 09:45:18 -0500</pubDate>
+      
+      <guid>http://sternecker.github.io/tags/nsfw/</guid>
+      
+        <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
