@@ -6,7 +6,20 @@
     <description>Recent content on Geoff&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Dec 2022 08:07:56 -0500</lastBuildDate><atom:link href="http://sternecker.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Jan 2023 16:19:32 -0500</lastBuildDate><atom:link href="http://sternecker.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Codemash</title>
+      <link>http://sternecker.github.io/posts/codemash/</link>
+      <pubDate>Sat, 14 Jan 2023 16:19:32 -0500</pubDate>
+      
+      <guid>http://sternecker.github.io/posts/codemash/</guid>
+      
+        <description>CodeMash was fantastic. I learn more things valuable to my work and personal interests at this conference than at any others I attend. This has been my experience for years. CodeMash has also been “my secret” for improving my programming skills, DevOps knowledge, and application architecture knowledge.
+(Which reminds me of a Clifford Stoll comment I will have to find later.)
+I met many new people and reconnected with many friends.</description>
+      
+    </item>
+    
     <item>
       <title>Vegans</title>
       <link>http://sternecker.github.io/posts/vegans/</link>
