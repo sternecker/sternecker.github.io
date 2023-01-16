@@ -8,10 +8,10 @@ a {
   color: #eee;
 }
 .theme--light a:hover {
-  color: #6086b4;
+  color: #314768;
 }
 .theme--dark a:hover {
-  color: #6086b4;
+  color: #314768;
 }
 blockquote {
   padding: 0 1em;
@@ -647,10 +647,10 @@ p {
   box-shadow: 0 8px 16px rgba(226, 226, 226, 0.1);
 }
 .theme--light .post__content a {
-  color: #6086b4;
+  color: #314768;
 }
 .theme--dark .post__content a {
-  color: #6086b4;
+  color: #314768;
 }
 .theme--light .post__content .chroma {
   background-color: #eee;
@@ -1058,11 +1058,11 @@ p {
 }
 .theme--light .portfolio__button {
   border: 1px solid #595959;
-  color: #6086b4;
+  color: #314768;
 }
 .theme--dark .portfolio__button {
   border: 1px solid #595959;
-  color: #6086b4;
+  color: #314768;
 }
 .portfolio__button:hover {
   display: inline-block;
@@ -1128,10 +1128,10 @@ p {
   color: #eee;
 }
 .theme--light .archive__list-title:hover {
-  color: #6086b4;
+  color: #314768;
 }
 .theme--dark .archive__list-title:hover {
-  color: #6086b4;
+  color: #314768;
 }
 .notice {
   display: flex;
@@ -1156,7 +1156,7 @@ p {
   background-color: #6c3639;
 }
 .notice__title {
-  background-color: #6086b4;
+  background-color: #314768;
   align-self: flex-end;
   font-weight: 300;
   letter-spacing: 0.025em;
@@ -1296,7 +1296,7 @@ p {
 }
 #TableOfContents li a {
   display: inherit;
-  color: #6086b4;
+  color: #314768;
 }
 #TableOfContents li a:hover {
   display: inherit;
