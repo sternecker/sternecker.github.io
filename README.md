@@ -3,8 +3,8 @@
 This is the source for [My Blog](https://sternecker.github.io).
 
 This is a [hugo site](https://gohugo.io/).  
-Using the [anatole theme](https://themes.gohugo.io/themes/anatole/).  
+Using a modified [anatole theme](https://themes.gohugo.io/themes/anatole/).  
 
-- Theme source here: [github repo](https://github.com/lxndrblz/anatole)
+- Original Theme source here: [github repo](https://github.com/lxndrblz/anatole)
 
 Running on [github pages](https://pages.github.com/).  
