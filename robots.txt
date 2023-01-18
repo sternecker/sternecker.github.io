@@ -1,3 +1,1 @@
 User-agent: *
-
-There are no robots here.
