@@ -1,398 +1,289 @@
 <!DOCTYPE html>
-<html
-  dir="ltr"
-  lang="en"
-  data-theme=""
-  
-    class="html theme--light"
-  
-><head>
-  <title>
-    GeoffS
-        |
-        Codemash
-      
+<html dir="ltr" lang="en" data-theme="" class="html theme--light">
 
-    
+<head>
+  <title>GeoffS | Codemash</title>
 
-  </title>
+  <meta charset="utf-8" >
+  <meta name="generator" content="Hugo 0.98.0" >
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" >
+  <meta name="author" content="GeoffS" >
+  <meta name="description" content="Notes on CodeMash 2023" >
 
-  
-  <meta charset="utf-8"><meta name="generator" content="Hugo 0.98.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="author" content="GeoffS">
-  <meta
-    name="description"
-    content="Notes on CodeMash 2023"
- >
-  
-  
-    
-    
-    <link
-      rel="stylesheet"
-      href="/scss/main.min.1e8da2a007e44445e70754fe40ee4f415ac385725bc3d6e2b32066a7c70fd487.css"
-      integrity="sha256-Ho2ioAfkREXnB1T&#43;QO5PQVrDhXJbw9bisyBmp8cP1Ic="
-      crossorigin="anonymous"
-      type="text/css"
-   >
-  
+  <link rel="stylesheet" href="/scss/main.min.1e8da2a007e44445e70754fe40ee4f415ac385725bc3d6e2b32066a7c70fd487.css"
+    integrity="sha256-Ho2ioAfkREXnB1T&#43;QO5PQVrDhXJbw9bisyBmp8cP1Ic=" crossorigin="anonymous" type="text/css" >
 
-  
-  <link
-    rel="stylesheet"
+  <link rel="stylesheet"
     href="/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css"
-    integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU="
-    crossorigin="anonymous"
-    type="text/css"
- >
-  
-  
-  <link
-    rel="stylesheet"
+    integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU=" crossorigin="anonymous" type="text/css" >
+
+  <link rel="stylesheet"
     href="/fontawesome/css/fontawesome.min.7d272de35b410fb165377550cdf9c4d3a80fbbcc961e111914e4d5c0eaf5729f.css"
-    integrity="sha256-fSct41tBD7FlN3VQzfnE06gPu8yWHhEZFOTVwOr1cp8="
-    crossorigin="anonymous"
-    type="text/css"
- >
-  
-  <link
-    rel="stylesheet"
+    integrity="sha256-fSct41tBD7FlN3VQzfnE06gPu8yWHhEZFOTVwOr1cp8=" crossorigin="anonymous" type="text/css" >
+
+  <link rel="stylesheet"
     href="/fontawesome/css/solid.min.55d8333481b07a08e07cf6f37319753a2b47e99f4c395394c5747b48b495aa9b.css"
-    integrity="sha256-VdgzNIGwegjgfPbzcxl1OitH6Z9MOVOUxXR7SLSVqps="
-    crossorigin="anonymous"
-    type="text/css"
- >
-  
-  <link
-    rel="stylesheet"
+    integrity="sha256-VdgzNIGwegjgfPbzcxl1OitH6Z9MOVOUxXR7SLSVqps=" crossorigin="anonymous" type="text/css" >
+
+  <link rel="stylesheet"
     href="/fontawesome/css/regular.min.a7448d02590b43449364b6b5922ed9af5410abb4de4238412a830316dedb850b.css"
-    integrity="sha256-p0SNAlkLQ0STZLa1ki7Zr1QQq7TeQjhBKoMDFt7bhQs="
-    crossorigin="anonymous"
-    type="text/css"
- >
-  
-  <link
-    rel="stylesheet"
+    integrity="sha256-p0SNAlkLQ0STZLa1ki7Zr1QQq7TeQjhBKoMDFt7bhQs=" crossorigin="anonymous" type="text/css" >
+
+  <link rel="stylesheet"
     href="/fontawesome/css/brands.min.9ed75a5d670c953fe4df935937674b4646f92674367e9e66eb995bb04e821647.css"
-    integrity="sha256-ntdaXWcMlT/k35NZN2dLRkb5JnQ2fp5m65lbsE6CFkc="
-    crossorigin="anonymous"
-    type="text/css"
- >
-  
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    integrity="sha256-ntdaXWcMlT/k35NZN2dLRkb5JnQ2fp5m65lbsE6CFkc=" crossorigin="anonymous" type="text/css" >
 
-  <link rel="canonical" href="http://sternecker.github.io/posts/codemash/">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" >
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" >
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" >
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" >
 
-  
-  
-  
-  
-  <script
-    type="text/javascript"
+  <link rel="canonical" href="http://sternecker.github.io/posts/codemash/" >
+
+  <script type="text/javascript"
     src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
-    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
-    crossorigin="anonymous"
- ></script>
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI=" crossorigin="anonymous"></script>
 
-  
-    
-    
-    <script
-      type="text/javascript"
-      src="/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
-      integrity="sha256-1tMp2ThEsWLovtHpFWGWJcqRaHlSF3VSubPiEQFKKVc="
-      crossorigin="anonymous"
-   ></script>
-  
+  <script type="text/javascript"
+    src="/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
+    integrity="sha256-1tMp2ThEsWLovtHpFWGWJcqRaHlSF3VSubPiEQFKKVc=" crossorigin="anonymous"></script>
 
-  
+  <meta name="twitter:card" content="summary" >
+  <meta name="twitter:title" content="Codemash" >
+  <meta name="twitter:description" content="Notes on CodeMash 2023" >
 
+  <meta property="og:title" content="Codemash" >
+  <meta property="og:description" content="Notes on CodeMash 2023" >
+  <meta property="og:type" content="article" >
+  <meta property="og:url" content="http://sternecker.github.io/posts/codemash/" >
+  <meta property="article:section" content="posts" >
+  <meta property="article:published_time" content="2023-01-14T16:19:32-05:00" >
+  <meta property="article:modified_time" content="2023-01-14T16:19:32-05:00" >
+  <meta property="og:site_name" content="Geoff Sternecker" >
 
-  
-  <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Codemash"/>
-<meta name="twitter:description" content="Notes on CodeMash 2023"/>
-
-
-
-  
-  <meta property="og:title" content="Codemash" />
-<meta property="og:description" content="Notes on CodeMash 2023" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://sternecker.github.io/posts/codemash/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-01-14T16:19:32-05:00" />
-<meta property="article:modified_time" content="2023-01-14T16:19:32-05:00" /><meta property="og:site_name" content="Geoff Sternecker" />
-
-
-
-
-  
-  
-  
-  
   <script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "BlogPosting",
-        "articleSection": "posts",
-        "name": "Codemash",
-        "headline": "Codemash",
-        "alternativeHeadline": "",
-        "description": "
-      Notes on CodeMash 2023
+      {
+          "@context": "http://schema.org",
+          "@type": "BlogPosting",
+          "articleSection": "posts",
+          "name": "Codemash",
+          "headline": "Codemash",
+          "alternativeHeadline": "",
+          "description": "
+        Notes on CodeMash 2023
 
 
-    ",
-        "inLanguage": "en-us",
-        "isFamilyFriendly": "true",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "http:\/\/sternecker.github.io\/posts\/codemash\/"
-        },
-        "author" : {
-            "@type": "Person",
-            "name": "GeoffS"
-        },
-        "creator" : {
-            "@type": "Person",
-            "name": "GeoffS"
-        },
-        "accountablePerson" : {
-            "@type": "Person",
-            "name": "GeoffS"
-        },
-        "copyrightHolder" : {
-            "@type": "Person",
-            "name": "GeoffS"
-        },
-        "copyrightYear" : "2023",
-        "dateCreated": "2023-01-14T16:19:32.00Z",
-        "datePublished": "2023-01-14T16:19:32.00Z",
-        "dateModified": "2023-01-14T16:19:32.00Z",
-        "publisher":{
-            "@type":"Organization",
-            "name": "GeoffS",
-            "url": "http://sternecker.github.io/",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "http:\/\/sternecker.github.io\/favicon-32x32.png",
-                "width":"32",
-                "height":"32"
-            }
-        },
-        "image": 
-      [
+      ",
+          "inLanguage": "en-us",
+          "isFamilyFriendly": "true",
+          "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "http:\/\/sternecker.github.io\/posts\/codemash\/"
+          },
+          "author" : {
+              "@type": "Person",
+              "name": "GeoffS"
+          },
+          "creator" : {
+              "@type": "Person",
+              "name": "GeoffS"
+          },
+          "accountablePerson" : {
+              "@type": "Person",
+              "name": "GeoffS"
+          },
+          "copyrightHolder" : {
+              "@type": "Person",
+              "name": "GeoffS"
+          },
+          "copyrightYear" : "2023",
+          "dateCreated": "2023-01-14T16:19:32.00Z",
+          "datePublished": "2023-01-14T16:19:32.00Z",
+          "dateModified": "2023-01-14T16:19:32.00Z",
+          "publisher":{
+              "@type":"Organization",
+              "name": "GeoffS",
+              "url": "http://sternecker.github.io/",
+              "logo": {
+                  "@type": "ImageObject",
+                  "url": "http:\/\/sternecker.github.io\/favicon-32x32.png",
+                  "width":"32",
+                  "height":"32"
+              }
+          },
+          "image":
+        [
+        ]
+
+      ,
+          "url" : "http:\/\/sternecker.github.io\/posts\/codemash\/",
+          "wordCount" : "243",
+          "genre" : [ ],
+          "keywords" : [
+
+        "CodeMash"
+
+
+
+          ,
+
+
+        "Testing"
+
+
+
+          ,
+
+
+        "Learning"
+
       ]
-
-    ,
-        "url" : "http:\/\/sternecker.github.io\/posts\/codemash\/",
-        "wordCount" : "243",
-        "genre" : [ ],
-        "keywords" : [ 
-      
-      "CodeMash"
-
-    
-      
-        ,
-
-      
-      "Testing"
-
-    
-      
-        ,
-
-      
-      "Learning"
-
-    ]
-    }
-  </script>
-
-
+      }
+    </script>
 </head>
+
 <body class="body">
-    <div class="wrapper">
-      <aside
-        
-          class="wrapper__sidebar"
-        
-     ><div
-  class="sidebar
-    animated fadeInDown
-  "
->
-  <div class="sidebar__content">
-    <div class="sidebar__introduction">
-      <img
-        class="sidebar__introduction-profileimage"
-        src="/images/Geoff_at_banksy_image.jpg"
-        alt="profile picture"
-     >
-      
-        <div class="sidebar__introduction-title">
-          <a href="/">Geoff Sternecker</a>
-        </div>
-      
-      <div class="sidebar__introduction-description">
-        <p>Information Security Architect</p>
-      </div>
-    </div>
-    <ul class="sidebar__list">
-      
-        <li class="sidebar__list-item">
-          <a
-            href="https://www.linkedin.com/in/geoffsternecker/"
-            target="_blank"
-            rel="noopener me"
-            aria-label="LinkedIn"
-            title="LinkedIn"
-         >
-            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
-          </a>
-        </li>
-      
-        <li class="sidebar__list-item">
-          <a
-            href="https://github.com/sternecker"
-            target="_blank"
-            rel="noopener me"
-            aria-label="github"
-            title="github"
-         >
-            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
-          </a>
-        </li>
-      
-        <li class="sidebar__list-item">
-          <a
-            href="https://keybase.io/sternecker"
-            target="_blank"
-            rel="noopener me"
-            aria-label="keybase"
-            title="keybase"
-         >
-            <i class="fab fa-keybase fa-2x" aria-hidden="true"></i>
-          </a>
-        </li>
-      
-    </ul>
-  </div><footer class="footer footer__sidebar">
-  <ul class="footer__list">
-    <li class="footer__item">
-      &copy;
-      
-        GeoffS
-        2023
-      
-    </li>
-    
-  </ul>
-</footer>
-  
-  <script
-    type="text/javascript"
-    src="/js/medium-zoom.min.602bd2014468bd348112e2aa24f595c530d257a4ed6c335d7baaa6ac9a7ca6fb.js"
-    integrity="sha256-YCvSAURovTSBEuKqJPWVxTDSV6TtbDNde6qmrJp8pvs="
-    crossorigin="anonymous"
- ></script></div>
-</aside>
-      <main
-        
-          class="wrapper__main"
-        
-     >
-        <header class="header"><div
-  class="
-    animated fadeInDown
-  "
->
-  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-    <span aria-hidden="true" class="navbar-burger__line"></span>
-    <span aria-hidden="true" class="navbar-burger__line"></span>
-    <span aria-hidden="true" class="navbar-burger__line"></span>
-  </a>
-  <nav class="nav">
-    <ul class="nav__list" id="navMenu">
-      
-      
-    </ul>
-    <ul class="nav__list nav__list--end">
-      
-      
-        <li class="nav__list-item">
-          <div class="themeswitch">
-            <a title="Switch Theme">
-              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-            </a>
+  <div class="wrapper">
+    <aside class="wrapper__sidebar">
+      <div class="sidebar animated fadeInDown">
+        <div class="sidebar__content">
+          <div class="sidebar__introduction">
+            <img class="sidebar__introduction-profileimage" src="/images/Geoff_at_banksy_image.jpg"
+              alt="profile picture" >
+
+            <div class="sidebar__introduction-title">
+              <a href="/">Geoff Sternecker</a>
+            </div>
+
+            <div class="sidebar__introduction-description">
+              <p>Information Security Architect</p>
+            </div>
           </div>
-        </li>
-      
-    </ul>
-  </nav>
-</div>
-</header>
-  <div
-    class="post 
-      animated fadeInDown
-    "
- >
-    
-    <div class="post__content">
-      <h1>Codemash</h1>
-      <p>CodeMash was fantastic. I learn more things valuable to my work and personal interests at this conference than at any others I attend. This has been my experience for years. CodeMash has also been “my secret” for improving my programming skills, DevOps knowledge, and application architecture knowledge.</p>
-<p>(Which reminds me of a Clifford Stoll comment I will have to find later.)</p>
-<p>I met many new people and reconnected with many friends.<br>
-I took away a list of things I want to research.<br>
-I need to improve my communication &amp; delivery. #softskills<br>
-I need to improve my advocacy and allyship; evangelize.   #security #opensource #usability #sustainability #accessibility #privacy #datamanagement #automation</p>
-<p>The dietary options at CodeMash were fantastic.<br>
-(Note: oat milk is probably a safer option than almond milk around people with nut allergies.)</p>
-<p>Custom checks can be created in linters. Linters not only endorse out-of-the-box best practices but can be used to ensure corporate programming standards and for security checks!!!<br>
-That is some low-hanging fruit—low cost of entry with substantial ROI.</p>
-<p><a href="https://pa11y.org/">pa11y</a><br>
-Accessibility aligns with usability and security. Add checks to your pipelines to make multiple groups happier, and it has direct financial benefits as it expands the business’s user base.</p>
-<p>Development Containers plugin for vscode, what a huge difference. I need to share this knowledge &amp; come up with a purely open source happy path.</p>
-<p>This is my shortlist.<br>
-#codemash #codemash2023</p>
-<p>I would like to see you at CodeMash 17 #CodeMashPrime<br>
-January 9-12, 2024</p>
-</div>
-    <div class="post__footer">
-      
+          <ul class="sidebar__list">
+            <li class="sidebar__list-item">
+              <a href="https://www.linkedin.com/in/geoffsternecker/" target="_blank" rel="noopener me"
+                aria-label="LinkedIn" title="LinkedIn">
+                <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+              </a>
+            </li>
 
-      
-        <span><a class="tag" href="/tags/codemash/">CodeMash</a><a class="tag" href="/tags/testing/">Testing</a><a class="tag" href="/tags/learning/">Learning</a></span>
+            <li class="sidebar__list-item">
+              <a href="https://github.com/sternecker" target="_blank" rel="noopener me" aria-label="github"
+                title="github">
+                <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+              </a>
+            </li>
 
+            <li class="sidebar__list-item">
+              <a href="https://keybase.io/sternecker" target="_blank" rel="noopener me" aria-label="keybase"
+                title="keybase">
+                <i class="fab fa-keybase fa-2x" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <footer class="footer footer__sidebar">
+          <ul class="footer__list">
+            <li class="footer__item">&copy; GeoffS 2023</li>
+          </ul>
+        </footer>
 
-      
-    </div>
-
-    
+        <script type="text/javascript"
+          src="/js/medium-zoom.min.602bd2014468bd348112e2aa24f595c530d257a4ed6c335d7baaa6ac9a7ca6fb.js"
+          integrity="sha256-YCvSAURovTSBEuKqJPWVxTDSV6TtbDNde6qmrJp8pvs=" crossorigin="anonymous"></script>
+      </div>
+    </aside>
+    <main class="wrapper__main">
+      <header class="header">
+        <div class="animated fadeInDown">
+          <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true" class="navbar-burger__line"></span>
+            <span aria-hidden="true" class="navbar-burger__line"></span>
+            <span aria-hidden="true" class="navbar-burger__line"></span>
+          </a>
+          <nav class="nav">
+            <ul class="nav__list" id="navMenu"></ul>
+            <ul class="nav__list nav__list--end">
+              <li class="nav__list-item">
+                <div class="themeswitch">
+                  <a title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="post animated fadeInDown">
+        <div class="post__content">
+          <h1>Codemash</h1>
+          <p>
+            CodeMash was fantastic. I learn more things valuable to my work
+            and personal interests at this conference than at any others I
+            attend. This has been my experience for years. CodeMash has also
+            been “my secret” for improving my programming skills, DevOps
+            knowledge, and application architecture knowledge.
+          </p>
+          <p>
+            (Which reminds me of a Clifford Stoll comment I will have to find
+            later.)
+          </p>
+          <p>
+            I met many new people and reconnected with many friends.<br >
+            I took away a list of things I want to research.<br >
+            I need to improve my communication &amp; delivery. #softskills<br >
+            I need to improve my advocacy and allyship; evangelize.
+             #security #opensource #usability #sustainability #accessibility #privacy #datamanagement #automation
+          </p>
+          <p>
+            The dietary options at CodeMash were fantastic.<br >
+            (Note: oat milk is probably a safer option than almond milk around
+            people with nut allergies.)
+          </p>
+          <p>
+            Custom checks can be created in linters. Linters not only endorse
+            out-of-the-box best practices but can be used to ensure corporate
+            programming standards and for security checks!!!<br >
+            That is some low-hanging fruit—low cost of entry with substantial
+            ROI.
+          </p>
+          <p>
+            <a href="https://pa11y.org/">pa11y</a><br >
+            Accessibility aligns with usability and security. Add checks to
+            your pipelines to make multiple groups happier, and it has direct
+            financial benefits as it expands the business’s user base.
+          </p>
+          <p>
+            Development Containers plugin for vscode, what a huge difference.
+            I need to share this knowledge &amp; come up with a purely open
+            source happy path.
+          </p>
+          <p>
+            This is my shortlist.<br >
+            #codemash #codemash2023
+          </p>
+          <p>
+            I would like to see you at CodeMash 17 #CodeMashPrime<br >
+            January 9-12, 2024
+          </p>
+        </div>
+        <div class="post__footer">
+          <span><a class="tag" href="/tags/codemash/">CodeMash</a><a class="tag" href="/tags/testing/">Testing</a><a
+              class="tag" href="/tags/learning/">Learning</a></span>
+        </div>
+      </div>
+    </main>
   </div>
+  <footer class="footer footer__base">
+    <ul class="footer__list">
+      <li class="footer__item">&copy; GeoffS 2023</li>
+    </ul>
+  </footer>
 
-      </main>
-    </div><footer class="footer footer__base">
-  <ul class="footer__list">
-    <li class="footer__item">
-      &copy;
-      
-        GeoffS
-        2023
-      
-    </li>
-    
-  </ul>
-</footer>
-  
-  <script
-    type="text/javascript"
+  <script type="text/javascript"
     src="/js/medium-zoom.min.602bd2014468bd348112e2aa24f595c530d257a4ed6c335d7baaa6ac9a7ca6fb.js"
-    integrity="sha256-YCvSAURovTSBEuKqJPWVxTDSV6TtbDNde6qmrJp8pvs="
-    crossorigin="anonymous"
- ></script></body>
+    integrity="sha256-YCvSAURovTSBEuKqJPWVxTDSV6TtbDNde6qmrJp8pvs=" crossorigin="anonymous"></script>
+</body>
+
 </html>
